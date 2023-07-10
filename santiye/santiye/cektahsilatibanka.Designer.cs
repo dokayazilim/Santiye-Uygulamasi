@@ -1,0 +1,845 @@
+﻿namespace santiye
+{
+    partial class cektahsilatibanka
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cektahsilatibanka));
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.işlemlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kaydeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.temizleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kapatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.araçkarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hesapMakinesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aktarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.bakiye = new System.Windows.Forms.TextBox();
+            this.aciklama = new System.Windows.Forms.TextBox();
+            this.islemtarihi = new System.Windows.Forms.DateTimePicker();
+            this.parabirimi = new System.Windows.Forms.ComboBox();
+            this.tutar = new System.Windows.Forms.TextBox();
+            this.odemeyeri = new System.Windows.Forms.ComboBox();
+            this.evrakdurumu = new System.Windows.Forms.ComboBox();
+            this.subeadi = new System.Windows.Forms.TextBox();
+            this.hesapno = new System.Windows.Forms.TextBox();
+            this.bankaadi = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.cekhesabi = new System.Windows.Forms.TextBox();
+            this.cekturu = new System.Windows.Forms.ComboBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.label12 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cekturuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cekhesabiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bankaadiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hesapnoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.subeadiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.evrakdurumuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.odemeyeriDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.islemtarihiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tutarDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.parabirimiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.aciklamaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cektahsilatBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.onmuhasebeDataSet31 = new santiye.onmuhasebeDataSet31();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.cektahsilatBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.onmuhasebesmartDataSet29 = new santiye.onmuhasebesmartDataSet29();
+            this.cektahsilatTableAdapter = new santiye.onmuhasebesmartDataSet29TableAdapters.cektahsilatTableAdapter();
+            this.cektahsilatTableAdapter1 = new santiye.onmuhasebeDataSet31TableAdapters.cektahsilatTableAdapter();
+            this.label15 = new System.Windows.Forms.Label();
+            this.menuStrip1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cektahsilatBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.onmuhasebeDataSet31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cektahsilatBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.onmuhasebesmartDataSet29)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.işlemlerToolStripMenuItem,
+            this.araçkarToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(447, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // işlemlerToolStripMenuItem
+            // 
+            this.işlemlerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.kaydeToolStripMenuItem,
+            this.temizleToolStripMenuItem,
+            this.kapatToolStripMenuItem});
+            this.işlemlerToolStripMenuItem.Name = "işlemlerToolStripMenuItem";
+            this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(60, 22);
+            this.işlemlerToolStripMenuItem.Text = "İşlemler";
+            // 
+            // kaydeToolStripMenuItem
+            // 
+            this.kaydeToolStripMenuItem.Name = "kaydeToolStripMenuItem";
+            this.kaydeToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.kaydeToolStripMenuItem.Text = "Kaydet";
+            this.kaydeToolStripMenuItem.Click += new System.EventHandler(this.kaydeToolStripMenuItem_Click);
+            // 
+            // temizleToolStripMenuItem
+            // 
+            this.temizleToolStripMenuItem.Name = "temizleToolStripMenuItem";
+            this.temizleToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.temizleToolStripMenuItem.Text = "Temizle";
+            // 
+            // kapatToolStripMenuItem
+            // 
+            this.kapatToolStripMenuItem.Name = "kapatToolStripMenuItem";
+            this.kapatToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.kapatToolStripMenuItem.Text = "Kapat";
+            this.kapatToolStripMenuItem.Click += new System.EventHandler(this.kapatToolStripMenuItem_Click);
+            // 
+            // araçkarToolStripMenuItem
+            // 
+            this.araçkarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.hesapMakinesiToolStripMenuItem,
+            this.aktarToolStripMenuItem});
+            this.araçkarToolStripMenuItem.Name = "araçkarToolStripMenuItem";
+            this.araçkarToolStripMenuItem.Size = new System.Drawing.Size(56, 22);
+            this.araçkarToolStripMenuItem.Text = "Araçlar";
+            // 
+            // hesapMakinesiToolStripMenuItem
+            // 
+            this.hesapMakinesiToolStripMenuItem.Name = "hesapMakinesiToolStripMenuItem";
+            this.hesapMakinesiToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.hesapMakinesiToolStripMenuItem.Text = "Hesap Makinesi";
+            this.hesapMakinesiToolStripMenuItem.Click += new System.EventHandler(this.hesapMakinesiToolStripMenuItem_Click);
+            // 
+            // aktarToolStripMenuItem
+            // 
+            this.aktarToolStripMenuItem.Name = "aktarToolStripMenuItem";
+            this.aktarToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.aktarToolStripMenuItem.Text = "Aktar";
+            this.aktarToolStripMenuItem.Click += new System.EventHandler(this.aktarToolStripMenuItem_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label15);
+            this.groupBox1.Controls.Add(this.bakiye);
+            this.groupBox1.Controls.Add(this.aciklama);
+            this.groupBox1.Controls.Add(this.islemtarihi);
+            this.groupBox1.Controls.Add(this.parabirimi);
+            this.groupBox1.Controls.Add(this.tutar);
+            this.groupBox1.Controls.Add(this.odemeyeri);
+            this.groupBox1.Controls.Add(this.evrakdurumu);
+            this.groupBox1.Controls.Add(this.subeadi);
+            this.groupBox1.Controls.Add(this.hesapno);
+            this.groupBox1.Controls.Add(this.bankaadi);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.cekhesabi);
+            this.groupBox1.Controls.Add(this.cekturu);
+            this.groupBox1.Controls.Add(this.label13);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label14);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(8, 23);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Size = new System.Drawing.Size(427, 147);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Bilgiler";
+            // 
+            // bakiye
+            // 
+            this.bakiye.Location = new System.Drawing.Point(319, 123);
+            this.bakiye.Margin = new System.Windows.Forms.Padding(2);
+            this.bakiye.Name = "bakiye";
+            this.bakiye.Size = new System.Drawing.Size(104, 20);
+            this.bakiye.TabIndex = 14;
+            // 
+            // aciklama
+            // 
+            this.aciklama.Location = new System.Drawing.Point(72, 123);
+            this.aciklama.Margin = new System.Windows.Forms.Padding(2);
+            this.aciklama.Name = "aciklama";
+            this.aciklama.Size = new System.Drawing.Size(105, 20);
+            this.aciklama.TabIndex = 13;
+            // 
+            // islemtarihi
+            // 
+            this.islemtarihi.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.islemtarihi.Location = new System.Drawing.Point(319, 64);
+            this.islemtarihi.Margin = new System.Windows.Forms.Padding(2);
+            this.islemtarihi.Name = "islemtarihi";
+            this.islemtarihi.Size = new System.Drawing.Size(104, 20);
+            this.islemtarihi.TabIndex = 12;
+            // 
+            // parabirimi
+            // 
+            this.parabirimi.FormattingEnabled = true;
+            this.parabirimi.Items.AddRange(new object[] {
+            "TL",
+            "$",
+            "€"});
+            this.parabirimi.Location = new System.Drawing.Point(319, 103);
+            this.parabirimi.Margin = new System.Windows.Forms.Padding(2);
+            this.parabirimi.Name = "parabirimi";
+            this.parabirimi.Size = new System.Drawing.Size(104, 21);
+            this.parabirimi.TabIndex = 11;
+            this.parabirimi.Text = "TL";
+            // 
+            // tutar
+            // 
+            this.tutar.Location = new System.Drawing.Point(319, 84);
+            this.tutar.Margin = new System.Windows.Forms.Padding(2);
+            this.tutar.Name = "tutar";
+            this.tutar.Size = new System.Drawing.Size(104, 20);
+            this.tutar.TabIndex = 10;
+            // 
+            // odemeyeri
+            // 
+            this.odemeyeri.FormattingEnabled = true;
+            this.odemeyeri.Items.AddRange(new object[] {
+            "KASA",
+            "BANKA"});
+            this.odemeyeri.Location = new System.Drawing.Point(319, 42);
+            this.odemeyeri.Margin = new System.Windows.Forms.Padding(2);
+            this.odemeyeri.Name = "odemeyeri";
+            this.odemeyeri.Size = new System.Drawing.Size(104, 21);
+            this.odemeyeri.TabIndex = 8;
+            // 
+            // evrakdurumu
+            // 
+            this.evrakdurumu.FormattingEnabled = true;
+            this.evrakdurumu.Items.AddRange(new object[] {
+            "Portföyde",
+            "Tahsilde",
+            "Tahsil Edildi",
+            "Ciro Edildi"});
+            this.evrakdurumu.Location = new System.Drawing.Point(319, 20);
+            this.evrakdurumu.Margin = new System.Windows.Forms.Padding(2);
+            this.evrakdurumu.Name = "evrakdurumu";
+            this.evrakdurumu.Size = new System.Drawing.Size(104, 21);
+            this.evrakdurumu.TabIndex = 7;
+            // 
+            // subeadi
+            // 
+            this.subeadi.Location = new System.Drawing.Point(73, 103);
+            this.subeadi.Margin = new System.Windows.Forms.Padding(2);
+            this.subeadi.Name = "subeadi";
+            this.subeadi.Size = new System.Drawing.Size(104, 20);
+            this.subeadi.TabIndex = 6;
+            // 
+            // hesapno
+            // 
+            this.hesapno.Location = new System.Drawing.Point(73, 83);
+            this.hesapno.Margin = new System.Windows.Forms.Padding(2);
+            this.hesapno.Name = "hesapno";
+            this.hesapno.Size = new System.Drawing.Size(104, 20);
+            this.hesapno.TabIndex = 5;
+            // 
+            // bankaadi
+            // 
+            this.bankaadi.Location = new System.Drawing.Point(73, 63);
+            this.bankaadi.Margin = new System.Windows.Forms.Padding(2);
+            this.bankaadi.Name = "bankaadi";
+            this.bankaadi.Size = new System.Drawing.Size(104, 20);
+            this.bankaadi.TabIndex = 4;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(147, 42);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(30, 21);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "...";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // cekhesabi
+            // 
+            this.cekhesabi.Location = new System.Drawing.Point(73, 42);
+            this.cekhesabi.Margin = new System.Windows.Forms.Padding(2);
+            this.cekhesabi.Name = "cekhesabi";
+            this.cekhesabi.Size = new System.Drawing.Size(104, 20);
+            this.cekhesabi.TabIndex = 2;
+            // 
+            // cekturu
+            // 
+            this.cekturu.FormattingEnabled = true;
+            this.cekturu.Items.AddRange(new object[] {
+            "ÇEK GİRİŞ",
+            "ÇEK ÇIKIŞ"});
+            this.cekturu.Location = new System.Drawing.Point(73, 20);
+            this.cekturu.Margin = new System.Windows.Forms.Padding(2);
+            this.cekturu.Name = "cekturu";
+            this.cekturu.Size = new System.Drawing.Size(104, 21);
+            this.cekturu.TabIndex = 1;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(14, 125);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(56, 13);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "Açıklama :";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(14, 105);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(56, 13);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Şube Adı :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(10, 85);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(61, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Hesap No :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(9, 65);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(62, 13);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Banka Adı :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 44);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Çek Hesabı :";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(272, 125);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(45, 13);
+            this.label14.TabIndex = 0;
+            this.label14.Text = "Bakiye :";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(253, 105);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(62, 13);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Para Birimi :";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(279, 85);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(38, 13);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Tutar :";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(250, 65);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(66, 13);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "İşlem Tarihi :";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(247, 44);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(68, 13);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Ödeme Yeri :";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(236, 22);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(81, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Evrak Durumu :";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Çek Türü :";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(48, 174);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(65, 25);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Kaydet";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(195, 174);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(65, 25);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "Temizle";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(332, 174);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(65, 25);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "Kapat";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.groupBox3);
+            this.groupBox2.Controls.Add(this.button6);
+            this.groupBox2.Controls.Add(this.button5);
+            this.groupBox2.Controls.Add(this.dataGridView1);
+            this.groupBox2.Controls.Add(this.textBox7);
+            this.groupBox2.Controls.Add(this.label11);
+            this.groupBox2.Location = new System.Drawing.Point(8, 200);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Size = new System.Drawing.Size(427, 152);
+            this.groupBox2.TabIndex = 6;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Kayıtlar";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.dateTimePicker2);
+            this.groupBox3.Controls.Add(this.dateTimePicker3);
+            this.groupBox3.Controls.Add(this.label12);
+            this.groupBox3.Location = new System.Drawing.Point(179, 8);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Size = new System.Drawing.Size(190, 36);
+            this.groupBox3.TabIndex = 22;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Tarih";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker2.Location = new System.Drawing.Point(105, 11);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(83, 20);
+            this.dateTimePicker2.TabIndex = 1;
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker3.Location = new System.Drawing.Point(4, 11);
+            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(2);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(83, 20);
+            this.dateTimePicker3.TabIndex = 0;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(90, 13);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(10, 13);
+            this.label12.TabIndex = 14;
+            this.label12.Text = "-";
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Location = new System.Drawing.Point(377, 18);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(46, 22);
+            this.button6.TabIndex = 15;
+            this.button6.Text = "Ara";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(146, 19);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(30, 21);
+            this.button5.TabIndex = 14;
+            this.button5.Text = "...";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.cekturuDataGridViewTextBoxColumn,
+            this.cekhesabiDataGridViewTextBoxColumn,
+            this.bankaadiDataGridViewTextBoxColumn,
+            this.hesapnoDataGridViewTextBoxColumn,
+            this.subeadiDataGridViewTextBoxColumn,
+            this.evrakdurumuDataGridViewTextBoxColumn,
+            this.odemeyeriDataGridViewTextBoxColumn,
+            this.islemtarihiDataGridViewTextBoxColumn,
+            this.tutarDataGridViewTextBoxColumn,
+            this.parabirimiDataGridViewTextBoxColumn,
+            this.aciklamaDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.cektahsilatBindingSource1;
+            this.dataGridView1.Location = new System.Drawing.Point(7, 45);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 20;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(416, 103);
+            this.dataGridView1.TabIndex = 3;
+            // 
+            // cekturuDataGridViewTextBoxColumn
+            // 
+            this.cekturuDataGridViewTextBoxColumn.DataPropertyName = "cekturu";
+            this.cekturuDataGridViewTextBoxColumn.HeaderText = "Çek Türü";
+            this.cekturuDataGridViewTextBoxColumn.Name = "cekturuDataGridViewTextBoxColumn";
+            // 
+            // cekhesabiDataGridViewTextBoxColumn
+            // 
+            this.cekhesabiDataGridViewTextBoxColumn.DataPropertyName = "cekhesabi";
+            this.cekhesabiDataGridViewTextBoxColumn.HeaderText = "Çek Hesabı";
+            this.cekhesabiDataGridViewTextBoxColumn.Name = "cekhesabiDataGridViewTextBoxColumn";
+            // 
+            // bankaadiDataGridViewTextBoxColumn
+            // 
+            this.bankaadiDataGridViewTextBoxColumn.DataPropertyName = "bankaadi";
+            this.bankaadiDataGridViewTextBoxColumn.HeaderText = "Banka Adı";
+            this.bankaadiDataGridViewTextBoxColumn.Name = "bankaadiDataGridViewTextBoxColumn";
+            // 
+            // hesapnoDataGridViewTextBoxColumn
+            // 
+            this.hesapnoDataGridViewTextBoxColumn.DataPropertyName = "hesapno";
+            this.hesapnoDataGridViewTextBoxColumn.HeaderText = "Hesap No";
+            this.hesapnoDataGridViewTextBoxColumn.Name = "hesapnoDataGridViewTextBoxColumn";
+            // 
+            // subeadiDataGridViewTextBoxColumn
+            // 
+            this.subeadiDataGridViewTextBoxColumn.DataPropertyName = "subeadi";
+            this.subeadiDataGridViewTextBoxColumn.HeaderText = "Şube Adı";
+            this.subeadiDataGridViewTextBoxColumn.Name = "subeadiDataGridViewTextBoxColumn";
+            // 
+            // evrakdurumuDataGridViewTextBoxColumn
+            // 
+            this.evrakdurumuDataGridViewTextBoxColumn.DataPropertyName = "evrakdurumu";
+            this.evrakdurumuDataGridViewTextBoxColumn.HeaderText = "Evrak Durumu";
+            this.evrakdurumuDataGridViewTextBoxColumn.Name = "evrakdurumuDataGridViewTextBoxColumn";
+            // 
+            // odemeyeriDataGridViewTextBoxColumn
+            // 
+            this.odemeyeriDataGridViewTextBoxColumn.DataPropertyName = "odemeyeri";
+            this.odemeyeriDataGridViewTextBoxColumn.HeaderText = "Ödeme Yeri";
+            this.odemeyeriDataGridViewTextBoxColumn.Name = "odemeyeriDataGridViewTextBoxColumn";
+            // 
+            // islemtarihiDataGridViewTextBoxColumn
+            // 
+            this.islemtarihiDataGridViewTextBoxColumn.DataPropertyName = "islemtarihi";
+            this.islemtarihiDataGridViewTextBoxColumn.HeaderText = "İşlem Tarihi";
+            this.islemtarihiDataGridViewTextBoxColumn.Name = "islemtarihiDataGridViewTextBoxColumn";
+            // 
+            // tutarDataGridViewTextBoxColumn
+            // 
+            this.tutarDataGridViewTextBoxColumn.DataPropertyName = "tutar";
+            this.tutarDataGridViewTextBoxColumn.HeaderText = "Tutar";
+            this.tutarDataGridViewTextBoxColumn.Name = "tutarDataGridViewTextBoxColumn";
+            // 
+            // parabirimiDataGridViewTextBoxColumn
+            // 
+            this.parabirimiDataGridViewTextBoxColumn.DataPropertyName = "parabirimi";
+            this.parabirimiDataGridViewTextBoxColumn.HeaderText = "Para Birimi";
+            this.parabirimiDataGridViewTextBoxColumn.Name = "parabirimiDataGridViewTextBoxColumn";
+            // 
+            // aciklamaDataGridViewTextBoxColumn
+            // 
+            this.aciklamaDataGridViewTextBoxColumn.DataPropertyName = "aciklama";
+            this.aciklamaDataGridViewTextBoxColumn.HeaderText = "Açıklama";
+            this.aciklamaDataGridViewTextBoxColumn.Name = "aciklamaDataGridViewTextBoxColumn";
+            // 
+            // cektahsilatBindingSource1
+            // 
+            this.cektahsilatBindingSource1.DataMember = "cektahsilat";
+            this.cektahsilatBindingSource1.DataSource = this.onmuhasebeDataSet31;
+            // 
+            // onmuhasebeDataSet31
+            // 
+            this.onmuhasebeDataSet31.DataSetName = "onmuhasebeDataSet31";
+            this.onmuhasebeDataSet31.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(81, 20);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(96, 20);
+            this.textBox7.TabIndex = 13;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(11, 22);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(68, 13);
+            this.label11.TabIndex = 12;
+            this.label11.Text = "Çek Hesabı :";
+            // 
+            // cektahsilatBindingSource
+            // 
+            this.cektahsilatBindingSource.DataMember = "cektahsilat";
+            this.cektahsilatBindingSource.DataSource = this.onmuhasebesmartDataSet29;
+            // 
+            // onmuhasebesmartDataSet29
+            // 
+            this.onmuhasebesmartDataSet29.DataSetName = "onmuhasebesmartDataSet29";
+            this.onmuhasebesmartDataSet29.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // cektahsilatTableAdapter
+            // 
+            this.cektahsilatTableAdapter.ClearBeforeFill = true;
+            // 
+            // cektahsilatTableAdapter1
+            // 
+            this.cektahsilatTableAdapter1.ClearBeforeFill = true;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(201, 63);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(0, 13);
+            this.label15.TabIndex = 15;
+            // 
+            // cektahsilatibanka
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(447, 354);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(463, 392);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(463, 392);
+            this.Name = "cektahsilatibanka";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Banka Çek Tahsilatı";
+            this.Load += new System.EventHandler(this.cektahsilatibanka_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cektahsilatBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.onmuhasebeDataSet31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cektahsilatBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.onmuhasebesmartDataSet29)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        public System.Windows.Forms.MenuStrip menuStrip1;
+        public System.Windows.Forms.ToolStripMenuItem işlemlerToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem kaydeToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem temizleToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem kapatToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem araçkarToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem hesapMakinesiToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem aktarToolStripMenuItem;
+        public System.Windows.Forms.GroupBox groupBox1;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.ComboBox cekturu;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.TextBox cekhesabi;
+        public System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.TextBox bankaadi;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.TextBox hesapno;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.TextBox subeadi;
+        public System.Windows.Forms.Label label6;
+        public System.Windows.Forms.ComboBox evrakdurumu;
+        public System.Windows.Forms.Label label7;
+        public System.Windows.Forms.ComboBox odemeyeri;
+        public System.Windows.Forms.Label label8;
+        public System.Windows.Forms.Label label9;
+        public System.Windows.Forms.TextBox tutar;
+        public System.Windows.Forms.Label label10;
+        public System.Windows.Forms.ComboBox parabirimi;
+        public System.Windows.Forms.Button button2;
+        public System.Windows.Forms.Button button3;
+        public System.Windows.Forms.Button button4;
+        public System.Windows.Forms.GroupBox groupBox2;
+        public System.Windows.Forms.DataGridView dataGridView1;
+        public System.Windows.Forms.Button button5;
+        public System.Windows.Forms.TextBox textBox7;
+        public System.Windows.Forms.Label label11;
+        public System.Windows.Forms.DateTimePicker islemtarihi;
+        public System.Windows.Forms.Button button6;
+        public System.Windows.Forms.GroupBox groupBox3;
+        public System.Windows.Forms.DateTimePicker dateTimePicker2;
+        public System.Windows.Forms.DateTimePicker dateTimePicker3;
+        public System.Windows.Forms.Label label12;
+        public System.Windows.Forms.Label label13;
+        public System.Windows.Forms.TextBox aciklama;
+        public onmuhasebesmartDataSet29 onmuhasebesmartDataSet29;
+        public System.Windows.Forms.BindingSource cektahsilatBindingSource;
+        public onmuhasebesmartDataSet29TableAdapters.cektahsilatTableAdapter cektahsilatTableAdapter;
+        public System.Windows.Forms.Label label14;
+        public System.Windows.Forms.TextBox bakiye;
+        private onmuhasebeDataSet31 onmuhasebeDataSet31;
+        private System.Windows.Forms.BindingSource cektahsilatBindingSource1;
+        private onmuhasebeDataSet31TableAdapters.cektahsilatTableAdapter cektahsilatTableAdapter1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cekturuDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cekhesabiDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn bankaadiDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn hesapnoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn subeadiDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn evrakdurumuDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn odemeyeriDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn islemtarihiDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tutarDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn parabirimiDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn aciklamaDataGridViewTextBoxColumn;
+        public System.Windows.Forms.Label label15;
+
+    }
+}
